@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<script type="text/javascript">
+var day=new Date(7);
+	day[0]="MON";
+	day[1]="TUES";
+	day[2]="WED";
+	day[3]="THUR";
+	day[4]="FRI";
+	day[5]="SAT";
+	day[6]="SUN";
+	console.log("Today is " + day[2]);
+</script>
+</body>
+</html>

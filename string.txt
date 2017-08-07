@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<script type="text/javascript">
+var flavors =['vanilla','chocolate','coconut','strawberry','banana fudge','pineapple'];
+	
+for(var i=0;i<flavors.length;i++) {
+ console.log(flavors)
+			}
+</script>
+</body>
+</html>

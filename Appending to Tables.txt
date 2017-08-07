@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>My Table</h1>
+<table border="1">
+<tr>
+ <th>Medical And Dental Code</th>
+ <th>Common Names For Medical And Dental Degrees</th>
+</tr>
+<tr>
+<td>GP</td>
+<td>General Practioner</td>
+</tr>
+<tr>
+<td>MD</td>
+<td>Doctor of Medicine</td>
+</tr>
+<tr>
+<td>MS</td>
+<td>Master of Surgery</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>data types</title>
+<script type="text/javascript">
+     //integer
+     var userAge = 100;
+     //float
+     var pizzas = 3;
+   </script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	(function(window){
+    //I recommend this
+    'use strict';
+    function define_library(){
+        var Library = {};
+        var name = "Timmy";
+        Library.greet = function(){
+            alert("Hello from the " + James + " library.");
+        }
+        return Library;
+    }
+    //define globally if it doesn't already exist
+    if(typeof(Library) === 'undefined'){
+        
+    }
+    else{
+        console.log("Library already defined.");
+    }
+})(window);
+</script>
+
+</body>
+</html>

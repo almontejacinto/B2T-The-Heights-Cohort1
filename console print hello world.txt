@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>console prints hello world!</title>
+<head>
+<body>
+<script>
+console.log("Hello World!");
+</script>
+</body>
+</head>	
+
+</html>

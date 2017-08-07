@@ -1,0 +1,10 @@
+<html>
+<body>
+
+<script>
+/* print hello world*/
+document.getElementById("demo").innerHTML = "hello world!";
+</script>
+
+</body>
+</html> 

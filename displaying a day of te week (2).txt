@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>array dom</title>
+</head>
+<body>
+
+	<p id="array"></p>
+   
+   <script type="text/javascript"> 
+    // * putting word form of show body to htm *//
+    document.getElementById("array").innerHTML = "HI"
+    /* picking fruits*/
+    var fruits = ['apple','orange','kiwi'];
+    /* putting it get more*/
+    fruits.push(prompt('Add more fruits'));
+  	fruits.shift();
+  	fruits.sort();
+  	 fruits.join('with');
+   
+   </script>
+
+
+
+</body>
+</html>
+
+
+this has mock interview, resume, hustle, hit share once u complete,

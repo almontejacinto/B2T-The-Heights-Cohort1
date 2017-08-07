@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head><script type="text/javascript">
+var a,b,result;
+ function setValue()
+ {
+ 	a= Number(document.getElementById("a").value);
+ 	b= Number(document.getElementById("b").value);
+ }
+ function rest()
+ {
+ 	setValue();
+ 	result = a-b;
+ 	alert("The rest is equals to"+result)
+
+ }
+ function mult()
+ {
+ 	setValue();
+ 	result = a+b;
+ 	alert("The operation is equals to"+result)
+
+ }
+ function div()
+ {
+ 	setValue();
+ 	result = a/b;
+ 	alert("The operation is equals to"+result)
+
+ }
+
+
+</script>
+</head>
+<body>
+  <div>
+    <input id="a" type="text"/>
+  	<input id="b" type="text"/>
+  	<input type="button" onclick="sum()" value="sum"/>
+  	<input type="button" onclick="rest()" value="rest"/>
+  	<input type="button" onclick="mult()" value="multiply"/>
+  	<input type="button" onclick="div()" value="divide"/>
+  	</div>
+</body>
+</html>
